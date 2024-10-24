@@ -23,4 +23,6 @@ Calculator values based on location (state) in the United States.
 
 Enhanced Google Maps locating feature accuracy and consistency.
 
+Logging system where the website stores data for each user such as total amount earned and impact from recycling so far.
+
 Enhanced adaptability in CSS styling for screen resolution.
