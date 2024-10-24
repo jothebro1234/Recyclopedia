@@ -16,3 +16,11 @@ npm install react-router-dom
 
 npm create vite@latest
 
+
+# Future Upgrades:
+
+Calculator values based on location (state) in the United States. 
+
+Enhanced Google Maps locating feature accuracy and consistency.
+
+Enhanced adaptability in CSS styling for screen resolution.
