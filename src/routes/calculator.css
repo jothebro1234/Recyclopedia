@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2%; */
+    text-align: center;
+  }
+  
+  .wide1, .wide2 {
+    width: 45%; margin:3%
+  }
+  
+  .question {
+    padding-bottom: 5%;
+  }
+  
+  .center{
+    text-align: center;
+    
+  }
+
+input[type=number]{
+  background-color: #8bd7c2;
+  color: #043c2c;
+  border-radius: 30px;
+  border-color: #043c2c;
+  border: solid;
+  height: 2vh;
+  padding: 1vh;
+}
+  

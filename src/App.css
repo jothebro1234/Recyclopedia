@@ -1,0 +1,117 @@
+html, body {
+  margin: 0; 
+  padding: 0; 
+  background-color: #000000;
+  font-family: 'Montserrat';
+
+}
+
+.main_page {
+  
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}
+.overlay {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2; 
+}
+.content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 300%;
+  z-index: 3;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.btn {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  color: #ffffff;
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.219); 
+  border: 1px solid #ffffff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  z-index: 4;
+}
+.btn:hover {
+  background: rgba(255, 255, 255, 0.575); 
+  border-color: #ffffff;
+}
+
+.btn:active {
+  transform: scale(0.95);
+  border-color: #ffffff;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+  border-color: #ffffff;
+}
+
+
+
+.powered-by {
+  position: absolute;
+  bottom: 10px; 
+  right: 10px;  
+  color: white; 
+  font-size: 12px; 
+  z-index: 10; 
+}
+.powered-by {
+  position: absolute;
+  bottom: 10px; 
+  right: 10px; 
+  color: white; 
+  font-size: 12px;
+  z-index: 10; 
+}
+
+.powered-by a {
+  color: white; 
+  text-decoration: none; 
+}
+
+.powered-by a:hover {
+  text-decoration: underline; 
+}
+
+
+.fade-in {
+  opacity: 0; 
+  animation: fadeIn 1s forwards; 
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; 
+  }
+}

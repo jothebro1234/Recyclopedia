@@ -1,0 +1,128 @@
+* {
+    font-family: 'Montserrat';
+    margin: auto;
+    align-items: center;
+}
+
+
+
+.upload-section {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.file-input {
+    margin-right: 10px;
+    padding: 10px;
+    border: 2px solid #3c7f72;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    cursor: pointer;
+}
+
+.file-input:hover {
+    border-color: #ffffff8c;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #3c7f72;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: black;
+    
+    
+}
+
+.search-button:hover {
+    background-color: #ffffff;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-wrapper {
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.image-wrapper:hover {
+    transform: scale(1.05);
+}
+
+.uploaded-image {
+    /* width: 150px; */
+    height: 150px;
+    object-fit: cover;
+}
+
+.loading-text {
+    transition: 250ms;
+    margin: 30px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.response-container {
+    transition: 250ms;
+    margin: 30px 30px;
+    padding: 15px;
+    background-color: #e9ecef14;
+    border: 2px solid #3c7f72;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    cursor: pointer;
+}
+.response-container:hover {
+    transition: 250ms;
+    margin: 30px 30px;
+    padding: 15px;
+    background-color: #e9ecef14;
+    border: 2px solid #ffffff99;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+.ai-response {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+input[type="file"] {
+    display:none;
+}
+
+.upload-button{
+    font-size: 26px;
+    color: #20a47e;
+    background-color: #0a372a;
+    padding: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+.upload-button:hover{
+    font-size: 26px;
+    color: #20a47e;
+    background-color: #082f24;
+    padding: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 250ms;
+}
+

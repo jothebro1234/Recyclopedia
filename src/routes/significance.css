@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://cdn.discordapp.com/attachments/823581101121077278/1298434339553546291/image.png?ex=67198cb6&is=67183b36&hm=dce46882edf87dd7e658f7d0695b7219b49d773ca2be619f8d85f2e0ecb0bc2d&");
+
+}
+
+.fade-in {
+  position: relative; 
+  height: 100%; 
+  width: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  
+}
+
+.nonovideo {
+  margin: 0;
+  padding: 0;
+  width: 100%; 
+  height: auto; 
+  position: absolute; 
+  top: 0; 
+}
+
+button{
+  background-color: #3c7f72;
+  border-color: #006838;
+  color:#043c2c;
+  border-radius: 50px;
+  border-width: 2px;
+}
