@@ -9,6 +9,10 @@ Currently, two official plugins are available:
 
 # Required Imports:
 npm i -S @react-google-maps/api
+
 npm install @google/generative-ai
+
 npm install react-router-dom
+
 npm create vite@latest
+
