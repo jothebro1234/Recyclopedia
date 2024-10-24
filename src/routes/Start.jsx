@@ -5,7 +5,7 @@ import { getBase64 } from '../helpers/imageHelper';
 import './start.css';
 
 const Start = () => {
-  const genAI = new GoogleGenerativeAI('API_KEY');
+  const genAI = new GoogleGenerativeAI('API_KEY_HIDDEN_FOR_SECURITY_PURPOSES');
 
   const [images, setImages] = useState([]);
   const [imageInlineData, setImageInlineData] = useState([]);
